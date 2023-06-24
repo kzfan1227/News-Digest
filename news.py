@@ -42,7 +42,8 @@ for article in content["articles"][:25]:
             message += article["description"] + "\n"
         message += article["url"] + 2* "\n"
 
-message += "\n" + "Updated news courtesy of kzfan1227"
+message += "\n" + "Updated news courtesy of kzfan1227." + 2*"\n" + \
+           "Reply 'Unsubcribe' to unsubscribe from this news." + 3*"\n" + "Just kidding, that doesn't do anything.
 # Self plug
 
 # sends the email on a secure connection, encoded as utf-8 instead of ascii to ensure proper encoding
